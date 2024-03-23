@@ -19,6 +19,10 @@ const db = getDatabase(fireBaseApp);
 app.use(express.json());
 app.use(cors());
 
+app.get('/', (req, res) => {
+    res.send("App is working fine");
+});
+
 app.post('/chat', async (req, res) => {
     const { content, role, questions, experience, skills } = req.body;
     const options = {
