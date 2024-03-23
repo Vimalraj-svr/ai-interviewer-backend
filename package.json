@@ -1,0 +1,22 @@
+{
+  "name": "s8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.0-beta.2",
+    "firebase": "^10.9.0",
+    "g4f": "^1.4.2",
+    "nodemailer": "^6.9.13",
+    "uuidv4": "^6.2.13"
+  }
+}
